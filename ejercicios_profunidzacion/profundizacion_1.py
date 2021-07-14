@@ -31,3 +31,26 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+print('Ingrese por consola el primer número real a operar:')
+numero1 = float(input())
+print('Ingrese por consola el segundo número real a operar:')
+numero2 = float(input())
+
+#resolucion A)
+
+suma = numero1 + numero2
+print("la suma entre", numero1, "y", numero2, "es igual a", suma)
+
+#resolucion B)
+resta = numero1 - numero2
+print("la resta entre", numero1, "y", numero2, "es igual a", resta)
+
+
+#resolucion C)
+multiplicacion = numero1 * numero2
+print("la multiplicacion entre", numero1, "y", numero2, "es igual a", multiplicacion)
+
+#resolucion D)
+division = numero1 / numero2
+print("la division entre", numero1, "y", numero2, "es igual a", division)
+
