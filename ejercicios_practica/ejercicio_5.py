@@ -20,3 +20,9 @@ palabra_2 = str(input())
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
+
+p3l_palabra1 = palabra_1[:3]
+p2l_palabra2 = palabra_2[:2]
+
+suma = p3l_palabra1 + p2l_palabra2
+print(suma)

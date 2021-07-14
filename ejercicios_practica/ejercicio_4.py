@@ -23,3 +23,10 @@ palabra_3 = str(input())
 # De cada palabra debe tomar la primera letra y armar el acrónimo
 # Ejemplo: Alumbrado, barrido y limpieza --> ABL
 # Imprimir el resultado en pantalla
+
+pl_palabra1 = palabra_1[0] # aca tomamos
+pl_palabra2 = palabra_2[0] # la primera letra
+pl_palabra3 = palabra_3[0] # de cada palabra
+
+print(pl_palabra1 + " " + pl_palabra2 +" "+ pl_palabra3) # aqui imprimimos las 3 primeras letras de cada palabra
+                                                         # con String vacio como espacio
